@@ -1,0 +1,28 @@
+{
+    "lab_settings": {
+        "default_evidence_path": "./evidence",
+        "default_hash_algorithm": "md5",
+        "enable_logging": true,
+        "log_level": "INFO"
+    },
+    "tools": {
+        "disk_imaging": {
+            "preferred_tool": "dc3dd",
+            "fallback_tools": ["ddrescue", "dd"]
+        },
+        "memory_acquisition": {
+            "preferred_tool": "lime",
+            "fallback_tools": ["dd"]
+        },
+        "network_capture": {
+            "preferred_tool": "tshark",
+            "fallback_tools": ["tcpdump"]
+        }
+    },
+    "acquisition_defaults": {
+        "hash_algorithms": ["md5", "sha256"],
+        "verify_by_default": true,
+        "create_logs": true,
+        "block_size": "1M"
+    }
+}

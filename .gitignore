@@ -1,0 +1,40 @@
+# Evidence files
+evidence/
+*.dd
+*.raw
+*.E01
+*.pcap
+*.pcapng
+*.mem
+*.dmp
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Metadata files (keep in repo structure but ignore actual evidence)
+*.metadata.json
+*.custody.json
+
+# Hash files
+*.md5
+*.sha1
+*.sha256

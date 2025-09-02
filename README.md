@@ -35,29 +35,6 @@ This repository focuses on **data acquisition techniques** for digital forensic 
 - **Virtualization**: VMware Workstation/VirtualBox for isolated environments
 - **Python**: 3.8+ with pip for acquisition scripts
 
-This repository focuses exclusively on **data acquisition techniques** for digital forensic investigations. The labs provide hands-on training for acquiring data from both live (running) and dead (offline) systems, covering the four critical data sources: **disk storage**, **RAM memory**, **network traffic**, and **cache data**.
-
-### Core Data Acquisition Areas
-
-- **Live Data Acquisition**: Real-time memory dumps, active network connections, volatile system state
-- **Dead Data Acquisition**: Disk imaging, storage device cloning, offline data extraction  
-- **RAM Memory Acquisition**: System memory capture, memory dump analysis, volatile data preservation
-- **Network Data Acquisition**: Traffic capture, packet analysis, network artifact collection
-- **Cache Data Acquisition**: Browser cache, application cache, system cache extraction
-
-## Prerequisites
-
-### Hardware Requirements
-- Computer with minimum 8GB RAM (16GB recommended)
-- USB drive 32GB+ for evidence storage
-- Network adapter for packet capture
-- Virtual machine setup for isolated testing
-
-### Software Requirements
-- **Operating System**: Ubuntu 22.04 LTS, Kali Linux, or similar
-- **Virtualization**: VMware Workstation/VirtualBox
-- **Python**: 3.8+ with pip
-
 ## Installation
 
 ### 1. Clone the Repository
